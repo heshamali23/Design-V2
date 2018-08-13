@@ -1,0 +1,112 @@
+/* Start Rulez */
+body {
+    height:4000px
+}
+.container {
+    width:1170px;
+    margin:auto
+}
+
+/* End Rulez */
+/* Start Header */
+.header .slider {
+    height:600px
+}
+.header .navbar {
+    background-color:#1D938D;
+    color:#FFF;
+    overflow:hidden;
+}
+.header .navbar h2 {
+    float:left
+}
+.header .navbar h2 span {
+    color:#2AEAD7
+}
+.header .navbar ul {
+    list-style:none;
+    float:right;
+    padding-left:0;
+    overflow:hidden
+    
+}
+.header .navbar ul li {
+    float:left;
+    padding:10px
+}
+.header .navbar ul li a {
+    text-decoration:none;
+    color:#FFF
+}
+.header .navbar ul li a:hover {
+    color:#1CEAEA;
+    border-bottom:2px solid #1CEAEA;
+}
+
+/* End Header */
+/* Start Features */
+.features {
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px
+}
+.features .feat {
+    float:left;
+    width:33.33333%;
+    height:130px
+}
+.features .feat p {
+    padding-right:5px
+}
+/* End Features */
+/* Start About Me */
+.about-me {
+    overflow:hidden;
+    background-color:#42BED1
+}
+.about-me .image {
+    float:left;
+    width:40%;
+}
+.about-me .image img {width:100%}
+.about-me .info {
+    float:left;
+    width:60%
+}
+.about-me .info .hobbies {
+    overflow:hidden;
+    margin:20px
+}
+.about-me .info .hobbies > div {
+    float:left;
+    width:50%;
+    min-height:100px
+}
+/* End About Me */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
