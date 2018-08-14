@@ -1,12 +1,9 @@
 /* Start Rulez */
-body {
-    height:4000px
-}
 .container {
     width:1170px;
     margin:auto
 }
-
+.clearfix {clear:both}
 /* End Rulez */
 /* Start Header */
 .header .slider {
@@ -42,7 +39,6 @@ body {
     color:#1CEAEA;
     border-bottom:2px solid #1CEAEA;
 }
-
 /* End Header */
 /* Start Features */
 .features {
@@ -83,30 +79,90 @@ body {
     min-height:100px
 }
 /* End About Me */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Start My Skills */
+.my-skills {
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden
+}
+.my-skills .skills, 
+.my-skills .progress {
+    float:left;
+    width:50%
+    
+}
+/* End My Skills */
+/* Start Resume */
+.resume {
+    background-color:#1EBF79;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center
+}
+/* End Resume */
+/* Start My Education */
+.my-education {
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden
+}
+.my-education .main,
+.my-education .exp {
+    float:left;
+    width:50%
+}
+/* End My Education */
+/* Start Testimonials */
+.testimonials {
+    background-color:#ED55A1;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}
+/* End Testimonials */
+/* Start Portfolio */
+.portfolio {
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center
+}
+.portfolio .our-work {
+    overflow:hidden
+}
+.portfolio .our-work > div {
+    float:left;
+    width:33.33333%;
+    margin-bottom:10px
+}
+.portfolio .our-work > div img {
+    width:92%;
+    margin:10px
+}
+/* End Portfolio */
+/* Start Contact Me */
+.contact-me {
+    background-color:#38B5EA;
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden
+}
+.contact-me .info h2 {
+    color:#FFF
+}
+.contact-me .info p {
+    color:#DAEAE9
+}
+.contact-me .info,
+.contact-me .form {
+    width:50%;
+    float:left
+}
+/* End Contact Me */
+/* Start Footer */
+.footer {
+    background-color:#D64470;
+    color:#151616;
+    padding:10px 0;
+    text-align:center;
+}
+/* End Footer */
