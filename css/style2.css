@@ -1,85 +1,144 @@
 /* Start Rulez */
-.container {
-    width:1170px;
-    margin:auto
-}
+
+.container {width:1170px;margin:auto}
+
 .clearfix {clear:both}
+
 /* End Rulez */
+
 /* Start Header */
-.header .slider {
-    height:600px
+
+.header .slider {height:600px;background-image:url('../images/s17.png');background-size:cover}
+
+.header .slider .intro {padding-top:200px;text-align:center}
+
+.header .slider .intro h2 {
+    margin:0 auto;
+    color:#DD6396;
+    font-size:50px;
+    border-top:3px solid #21B1C4;
+    border-bottom:3px solid #21B1C4;
+    width:600px;
+    padding:10px;
+    text-shadow:3px 3px 4px #143e3c;
 }
-.header .navbar {
-    background-color:#1D938D;
-    color:#FFF;
-    overflow:hidden;
+
+.header .slider .intro button {
+    background:none;
+    color:#EF4A84;
+    border:3px solid #60B3EA;
+    border-radius:5px;
+    padding:10px 30px;
+    margin-top:30px;
+    font-size:30px;
+    font-weight:bold
 }
-.header .navbar h2 {
-    float:left
-}
-.header .navbar h2 span {
-    color:#2AEAD7
-}
+
+.header .navbar {background-color:#1D6E91;color:#FFF;overflow:hidden}
+
+.header .navbar h2 {float:left;color:#FFF}
+
+.header .navbar h2 span {color:#4EE5A1}
+
 .header .navbar ul {
     list-style:none;
     float:right;
     padding-left:0;
     overflow:hidden
-    
 }
+
 .header .navbar ul li {
     float:left;
     padding:10px
 }
+
+.header .navbar ul li:hover {border-bottom:2px solid #ED342A;}
+
 .header .navbar ul li a {
     text-decoration:none;
-    color:#FFF
+    color:#FFF;
+    font-size:15px
 }
-.header .navbar ul li a:hover {
-    color:#1CEAEA;
-    border-bottom:2px solid #1CEAEA;
-}
+
+.header .navbar ul li a:hover {color:#4FE2AA}
+
 /* End Header */
+
 /* Start Features */
+
 .features {
     overflow:hidden;
     padding-top:30px;
-    padding-bottom:30px
+    padding-bottom:30px;
+    margin-bottom:30px
 }
+
 .features .feat {
     float:left;
     width:33.33333%;
-    height:130px
+    height:160px
 }
+
+.features .feat h2 {color:#27A0D8}
+
 .features .feat p {
-    padding-right:5px
+    padding-right:30px
 }
+
 /* End Features */
+
 /* Start About Me */
+
 .about-me {
     overflow:hidden;
-    background-color:#42BED1
+    background-color:#42BED1;
 }
+
 .about-me .image {
     float:left;
     width:40%;
 }
+
 .about-me .image img {width:100%}
+
 .about-me .info {
     float:left;
     width:60%
 }
+
+.about-me .info h2 {margin:15px 0 20px 50px;color:#414848}
+
+.about-me .info p {margin:15px 0 20px 50px;color:#FFF}
+
 .about-me .info .hobbies {
     overflow:hidden;
     margin:20px
 }
+
+.about-me .info .hobbies .con .icon {
+    float:left;
+    width:5%;
+    margin-left:30px;
+}
+
+.about-me .info .hobbies .con .icon i {margin:20px 5px 0 0;color:#343738}
+
+.about-me .info .hobbies .con .text {width:85%;float:left}
+
+.about-me .info .hobbies .con .text h3 {color:#414848;margin:15px 0 0 30px}
+
+.about-me .info .hobbies .con .text p {margin:3px 0 10px 30px}
+
 .about-me .info .hobbies > div {
     float:left;
     width:50%;
     min-height:100px
 }
+
 /* End About Me */
+
 /* Start My Skills */
+
 .my-skills {
     padding-top:30px;
     padding-bottom:30px;
@@ -166,3 +225,13 @@
     text-align:center;
 }
 /* End Footer */
+
+/* Start Frame Work 2 */
+
+button,li {font-family: 'Ubuntu', sans-serif;font-weight:bold}
+
+h2,h3 {color:#27A0D8;font-family: 'Ubuntu', sans-serif;font-weight:bold}
+
+p {line-height:1.6;color:#22968C;font-family: 'Ubuntu', sans-serif;font-weight:bold}
+
+/* End Frame Work 2*/
