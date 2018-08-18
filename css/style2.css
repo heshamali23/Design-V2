@@ -47,18 +47,11 @@
     overflow:hidden
 }
 
-.header .navbar ul li {
-    float:left;
-    padding:10px
-}
+.header .navbar ul li {float:left;padding:10px}
 
 .header .navbar ul li:hover {border-bottom:2px solid #ED342A;}
 
-.header .navbar ul li a {
-    text-decoration:none;
-    color:#FFF;
-    font-size:15px
-}
+.header .navbar ul li a {text-decoration:none;color:#FFF;font-size:15px}
 
 .header .navbar ul li a:hover {color:#4FE2AA}
 
@@ -73,53 +66,31 @@
     margin-bottom:30px
 }
 
-.features .feat {
-    float:left;
-    width:33.33333%;
-    height:160px
-}
+.features .feat {float:left;width:33.33333%;height:160px}
 
 .features .feat h2 {color:#27A0D8}
 
-.features .feat p {
-    padding-right:30px
-}
+.features .feat p {padding-right:30px}
 
 /* End Features */
 
 /* Start About Me */
 
-.about-me {
-    overflow:hidden;
-    background-color:#42BED1;
-}
+.about-me {overflow:hidden;background-color:#42BED1}
 
-.about-me .image {
-    float:left;
-    width:40%;
-}
+.about-me .image {float:left;width:40%}
 
 .about-me .image img {width:100%}
 
-.about-me .info {
-    float:left;
-    width:60%
-}
+.about-me .info {float:left;width:60%}
 
 .about-me .info h2 {margin:15px 0 20px 50px;color:#414848}
 
 .about-me .info p {margin:15px 0 20px 50px;color:#FFF}
 
-.about-me .info .hobbies {
-    overflow:hidden;
-    margin:20px
-}
+.about-me .info .hobbies {overflow:hidden;margin:20px}
 
-.about-me .info .hobbies .con .icon {
-    float:left;
-    width:5%;
-    margin-left:30px;
-}
+.about-me .info .hobbies .con .icon {float:left;width:5%;margin-left:30px;}
 
 .about-me .info .hobbies .con .icon i {margin:20px 5px 0 0;color:#343738}
 
@@ -129,109 +100,225 @@
 
 .about-me .info .hobbies .con .text p {margin:3px 0 10px 30px}
 
-.about-me .info .hobbies > div {
-    float:left;
-    width:50%;
-    min-height:100px
-}
+.about-me .info .hobbies > div {float:left;width:50%;min-height:100px}
 
 /* End About Me */
 
 /* Start My Skills */
 
-.my-skills {
-    padding-top:30px;
-    padding-bottom:30px;
-    overflow:hidden
+.my-skills {padding-top:30px;padding-bottom:30px;overflow:hidden}
+
+.my-skills .skills h2 {margin:15px 0 20px 50px}
+
+.my-skills .skills p {margin:15px 20px 20px 50px}
+
+.my-skills .skills button {
+    background:none;
+    border:3px solid #188DBF;
+    border-radius:5px;
+    padding:10px 30px;
+    color:#188DBF;
+    margin-left:50px
 }
+
 .my-skills .skills, 
-.my-skills .progress {
-    float:left;
-    width:50%
-    
+.my-skills .progress {float:left;width:50%}
+
+.my-skills .progress .teq {margin-left:50px}
+
+.my-skills .progress .teq div {
+    background-color:#AFBBBC;
+    height:25px
 }
+
+.my-skills .progress .teq div span {
+    background-color:#35B0CC;
+    height:25px;
+    display:block;
+    line-height:25px;
+    text-align:right;
+    color:#FFF;
+    font-weight:bold
+}
+
 /* End My Skills */
+
 /* Start Resume */
+
 .resume {
     background-color:#1EBF79;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:50px;
+    padding-bottom:70px;
     text-align:center
 }
+
+.resume h2 {color:#5A149B}
+
+.resume p {color:#FFF}
+
+.resume button {
+    background:none;
+    border:3px solid #5A149B;
+    border-radius:5px;
+    padding:10px 30px;
+    color:#5A149B
+}
+
 /* End Resume */
+
 /* Start My Education */
-.my-education {
-    padding-top:30px;
-    padding-bottom:30px;
-    overflow:hidden
+
+.my-education {padding-top:30px;padding-bottom:30px;overflow:hidden}
+
+.my-education .main {float:left;width:50%;margin-right:5%}
+
+.my-education .exp {float:left;width:45%}
+
+.my-education .exp .cert h3 {margin-top:60px;margin-bottom:8px}
+
+.my-education .exp .cert span {display:block;color:#929699}
+
+.my-education .exp .cert span:last-of-type {
+    background-color:#0C6B9E;
+    color:#FFF;
+    width:70px;
+    padding:8px 5px;
+    text-align:center;
+    font-weight:bold
 }
-.my-education .main,
-.my-education .exp {
-    float:left;
-    width:50%
+
+.my-education .exp .cert hr {
+    background-color: #DB155B;
+    margin:20px 0;
+    height:2px;
+    border:0
 }
+
 /* End My Education */
+
 /* Start Testimonials */
+
 .testimonials {
     background-color:#ED55A1;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:50px;
+    padding-bottom:70px;
     text-align:center;
 }
+
+.testimonials p {color:#FFF}
+
+.testimonials h3 {color:#0a326d}
+
+.testimonials ul {list-style:none;padding-left:0}
+
+.testimonials ul li {
+    width:10px;
+    height:10px;
+    border:2px solid #1647a0;
+    border-radius:50px;
+    display:inline-block;
+    cursor:pointer
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover {background-color:#1499e6}
+
 /* End Testimonials */
+
 /* Start Portfolio */
-.portfolio {
-    padding-top:30px;
-    padding-bottom:30px;
-    text-align:center
-}
-.portfolio .our-work {
-    overflow:hidden
-}
-.portfolio .our-work > div {
-    float:left;
-    width:33.33333%;
-    margin-bottom:10px
-}
+
+.portfolio {padding-top:30px;padding-bottom:30px;text-align:center}
+
+.portfolio .our-work {overflow:hidden}
+
+.portfolio .our-work > div {float:left;width:33.33333%;margin-bottom:10px}
+
 .portfolio .our-work > div img {
     width:92%;
-    margin:10px
+    margin:10px;
+    padding:3px;
+    border:2px solid #2BC491;
+    background-color:#FFF
 }
+
 /* End Portfolio */
+
 /* Start Contact Me */
+
 .contact-me {
     background-color:#38B5EA;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:50px;
+    padding-bottom:70px;
     overflow:hidden
 }
-.contact-me .info h2 {
-    color:#FFF
-}
-.contact-me .info p {
-    color:#DAEAE9
-}
+
+.contact-me .info h2 {color:#FFF}
+
+.contact-me .info p {color:#DAEAE9;margin-right:30px}
+
 .contact-me .info,
-.contact-me .form {
-    width:50%;
-    float:left
+.contact-me .form {width:50%;float:left}
+
+.contact-me .form label {
+    display:block;
+    padding-top:30px;
+    padding-bottom:20px;
+    color:#14397d;
 }
+
+.contact-me .form input[type="text"] {width:70%;color:#1B66C1}
+
+.contact-me .form input[type="number"] {width:70%;color:#1B66C1}
+
+.contact-me .form textarea {
+    margin-bottom:20px;
+    height:300px;
+    width:70%;
+    color:#1B66C1
+}
+
+.contact-me .form .sub {
+    padding:10px 30px;
+    display:block;
+    background:none;
+    border:3px solid #FFF;
+    border-radius:5px;
+    color:#113fc1;
+    font-size:23px
+} 
+
 /* End Contact Me */
+
 /* Start Footer */
+
 .footer {
-    background-color:#D64470;
+    background-color:#383e46;
     color:#151616;
-    padding:10px 0;
-    text-align:center;
+    padding:5px 0;
+    text-align:center
 }
+
+.footer span {
+    padding-top:5px;
+    padding-bottom:15px;
+    display:block;
+    color:#17d9e2
+}
+
+.footer i {padding-left:5px;color:#42c1ce}
+
+.footer i:hover {color:#CE527D}
+
 /* End Footer */
 
 /* Start Frame Work 2 */
 
-button,li {font-family: 'Ubuntu', sans-serif;font-weight:bold}
+button,li,label,input,textarea, .sub {font-family: 'Ubuntu', sans-serif;font-weight:bold}
 
 h2,h3 {color:#27A0D8;font-family: 'Ubuntu', sans-serif;font-weight:bold}
 
 p {line-height:1.6;color:#22968C;font-family: 'Ubuntu', sans-serif;font-weight:bold}
+
+span {font-family: 'Ubuntu', sans-serif;}
 
 /* End Frame Work 2*/
