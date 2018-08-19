@@ -49,7 +49,7 @@
 
 .header .navbar ul li {float:left;padding:10px}
 
-.header .navbar ul li:hover {border-bottom:2px solid #ED342A;}
+.header .navbar ul li:hover {border-bottom:2px solid #4FE2AA;border-radius:5px}
 
 .header .navbar ul li a {text-decoration:none;color:#FFF;font-size:15px}
 
