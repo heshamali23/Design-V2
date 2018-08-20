@@ -252,7 +252,7 @@
     overflow:hidden
 }
 
-.contact-me .info h2 {color:#FFF}
+.contact-me .info h2 {color:#252729}
 
 .contact-me .info p {color:#DAEAE9;margin-right:30px}
 
@@ -263,7 +263,7 @@
     display:block;
     padding-top:30px;
     padding-bottom:20px;
-    color:#14397d;
+    color:#252729;
 }
 
 .contact-me .form input[type="text"] {width:70%;color:#1B66C1}
@@ -283,7 +283,7 @@
     background:none;
     border:3px solid #FFF;
     border-radius:5px;
-    color:#113fc1;
+    color:#252729;
     font-size:23px
 } 
 
